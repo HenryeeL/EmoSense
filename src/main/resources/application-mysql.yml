@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:mysql://localhost:3306/emosense?useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai}
+    username: ${DB_USERNAME:emosense}
+    password: ${DB_PASSWORD:emosense}
+    driver-class-name: com.mysql.cj.jdbc.Driver
